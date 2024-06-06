@@ -1,0 +1,20 @@
+def foo1(INT x, INT y,) {
+    i: INT = 1
+    (i + 3 * 2 - 1) * 2
+}
+
+def foo2() {
+    i: INT = 3
+    j: INT = 2
+    (i + 3 * (j - 1) - j) * 2 / 3
+    foo1(1 ,2,)
+    if (i < 4) {
+        --i: INT = 7
+        i + 3
+    }
+}
+
+def main() {
+    foo1(1, 2,)
+}
+
